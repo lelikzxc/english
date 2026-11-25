@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>TOEFL iBT · Выбор варианта</title>
+<style>
+:root{color-scheme:light;--paper:#f5f3ed;--panel:#fffefa;--ink:#16292d;--muted:#506366;--line:#d6dfdb;--green:#176353;--dark:#183d36;font:16px/1.55 system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+*{box-sizing:border-box}body{margin:0}.wrap{max-width:1120px;margin:auto;padding-inline:clamp(16px,4vw,42px)}
+header{background:var(--dark);color:var(--panel);padding-block:15px;font-weight:740}main{padding-block:clamp(28px,5vw,56px)}
+h1,h2,p{margin:0}h1,h2{line-height:1.13;letter-spacing:-.035em;font-family:Georgia,serif;font-weight:500}h1{font-size:clamp(2.2rem,6vw,4rem)}h2{font-size:clamp(1.55rem,4vw,2.3rem)}
+.lead{max-width:68ch;color:var(--muted);margin-top:13px}.sets{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:22px;margin-top:30px}.panel{padding:clamp(15px,3vw,24px);border:1px solid var(--line);border-radius:15px;background:var(--panel)}
+ul{list-style:none;margin:12px 0 0;padding:0}li+li{border-top:1px solid var(--line)}
+.variant{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;min-height:56px;padding:8px 10px;border-radius:7px;text-decoration:none;color:var(--green);font-weight:710}
+.variant:hover{background:#e9f2eb}.variant:focus-visible,.official-link:focus-visible{outline:3px solid #b97922;outline-offset:2px}
+.official-link{display:inline-block;margin-top:12px;color:var(--green);text-underline-offset:.18em}
+@media(max-width:760px){.sets{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<header><div class="wrap">English · Меню пробников</div></header>
+<main class="wrap">
+  <h1>Выбери вариант TOEFL</h1>
+  <p class="lead">Добавь готовые HTML-варианты по инструкции в README и открой нужный пробник. Ответы и записи Speaking сохраняются в браузере.</p>
+  <a class="official-link" href="https://www.ets.org/toefl/teachers-advisors-agents/ibt/teaching/preparing-students.html">Официальные материалы ETS</a>
+  <div class="sets">
+    <section class="panel" aria-labelledby="teacher-title">
+      <h2 id="teacher-title">Teacher Practice Tests</h2>
+      <ul>
+        <li><a class="variant" href="variants/teacher-01/test.html"><span>Teacher Practice Test 1</span></a></li>
+        <li><a class="variant" href="toefl-teacher-02.html"><span>Teacher Practice Test 2</span></a></li>
+        <li><a class="variant" href="variants/teacher-03/test.html"><span>Teacher Practice Test 3</span></a></li>
+        <li><a class="variant" href="variants/teacher-04/test.html"><span>Teacher Practice Test 4</span></a></li>
+        <li><a class="variant" href="variants/teacher-05/test.html"><span>Teacher Practice Test 5</span></a></li>
+      </ul>
+    </section>
+    <section class="panel" aria-labelledby="student-title">
+      <h2 id="student-title">Student Practice Tests</h2>
+      <ul>
+        <li><a class="variant" href="variants/student-01/test.html"><span>Student Practice Test 1</span></a></li>
+        <li><a class="variant" href="variants/student-02/test.html"><span>Student Practice Test 2</span></a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+</body>
+</html>

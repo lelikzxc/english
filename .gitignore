@@ -1,0 +1,7 @@
+# Track only the instructions and the public menu.
+/*
+!/.gitignore
+!/README.md
+!/TOEFL/
+/TOEFL/*
+!/TOEFL/index.html
